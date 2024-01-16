@@ -6,3 +6,8 @@ This project demonstrates the integration of Apache Kafka for message production
 
 - Run the following command in order to start the Kafka broker service:
 ![Screenshot (53)](https://github.com/Marx-wrld/Spring-Boot-Kafka/assets/105711066/2de58644-20dd-46d4-9931-fe11fd441feb)
+
+- Run the following command to create a topic to store your events:
+```
+.\bin\kafka-topics.sh --create --topic marxcode --bootstrap-server localhost:9092
+```
