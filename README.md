@@ -1,2 +1,2 @@
 ## Spring-Boot-Kafka
-This project demonstrates how to configure a Kafka producer in a Spring Boot application and send a simple message to a Kafka topic named "marxcode." It includes the necessary configuration classes and properties to set up the Kafka producer and topic. 
+This project  demonstrates the integration of Apache Kafka for message production and consumption. It includes a REST controller to publish messages, a Kafka listener to consume messages, and configuration classes for Kafka consumers, producers, and topics. The application sends 100 messages to the "marxcode" topic on startup. 
