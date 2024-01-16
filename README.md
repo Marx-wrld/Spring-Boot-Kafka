@@ -5,3 +5,4 @@ This project demonstrates the integration of Apache Kafka for message production
 ![Screenshot (52)](https://github.com/Marx-wrld/Spring-Boot-Kafka/assets/105711066/79a4a59e-d46f-48f0-aefc-cec458343d60)
 
 - Run the following command in order to start the Kafka broker service:
+![Screenshot (53)](https://github.com/Marx-wrld/Spring-Boot-Kafka/assets/105711066/2de58644-20dd-46d4-9931-fe11fd441feb)
