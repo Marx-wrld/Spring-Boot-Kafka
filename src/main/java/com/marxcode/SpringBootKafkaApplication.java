@@ -16,7 +16,9 @@ public class SpringBootKafkaApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(KafkaTemplate<String, String> KafkaTemplate){
 		return args -> {
-			KafkaTemplate.send( "marxcode", "hello kafka");
+			for (int i = 0; i < 100; i++) {
+				KafkaTemplate.send( "marxcode", "hello kafka :)" + i );
+			}
 		};
 	}
 
