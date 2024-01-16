@@ -11,3 +11,8 @@ This project demonstrates the integration of Apache Kafka for message production
 ```
 .\bin\kafka-topics.sh --create --topic marxcode --bootstrap-server localhost:9092
 ```
+
+- RUn the following command to read the events:
+```
+.\bin\kafka-console-consumer.sh --topic marxcode --from-beginning --bootstrap-server localhost:9092
+```
